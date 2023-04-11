@@ -1,0 +1,11 @@
+.bajuRenang {
+/*mengatur warna baju */
+    background: red; 
+    display: flex;
+/* untuk mengatur ukuran font  */
+    font-size: 12px;
+    color: blue;
+    padding: 2rem;
+    margin: 2rem;
+
+}

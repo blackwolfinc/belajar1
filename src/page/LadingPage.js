@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
-import "../assets/css/landingPage.css"
+import "../assets/css/landingPage.css";
+
+
+
 
 export const LadingPage = () => {
     const [nama, setNama] = useState("")
@@ -13,7 +16,6 @@ useEffect(() => {
     }
    
 }, [nama])
-
 
 // frist di gunakan untuk memangil variable
 // setfrist di gunakan untuk memanipulasi isi variable 
@@ -30,6 +32,8 @@ const submitFunction =()=>{
         <h1>nama saya :  {nama}</h1>
         <h2>umur saya : {umur}</h2>
         <h2>alamat saya : {alamat}</h2>
+
+
 
         <input placeholder="untuk merubah nama" onChange={(e)=>{setNama(e.target.value)}} type={"text"}/>
         <input placeholder="untuk merubah umur" type={"number"} onChange={(e)=>{setUmur(e.target.value)}}/>
